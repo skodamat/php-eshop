@@ -1,6 +1,10 @@
 <?php
 namespace Eshop\Model;
 
+/**
+ * Class RegisteredCustomer
+ * @package Eshop\Model
+ */
 class RegisteredCustomer extends Customer
 {
     const REGISTRATION_LOYALTY_POINTS = 0;

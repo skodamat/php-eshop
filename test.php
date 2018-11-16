@@ -25,10 +25,7 @@ Order::createDbTable();
 //    ->addMethodMapping('loadValidatorMetadata')
 //    ->getValidator();
 
-$p1 = new Product('televize', 10000, 0.22, 1);
-$p1->insert();
-
-$c1 = new UnregisteredCustomer('Pepa');
+$c1 = new UnregisteredCustomer('Honza');
 $c1->insert();
 
 //$errors = $validator->validate($product1);

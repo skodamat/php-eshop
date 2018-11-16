@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="eshop.db" uuid="d87ec630-abb5-4135-8fbf-8ab4436744a9">
+    <data-source name="eshop" uuid="a1e0f58c-544a-4f8a-8a70-75a04ed41b47">
       <database-info product="SQLite" version="3.25.1" jdbc-version="2.1" driver-name="SQLite JDBC" driver-version="3.25.1" family="SQLITE" exact-version="3.25.1">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
-      <secret-storage>master_key</secret-storage>
       <auth-required>false</auth-required>
-      <introspection-schemas>*:*</introspection-schemas>
-      <load-sources>user_and_system_sources</load-sources>
+      <introspection-schemas>*:@</introspection-schemas>
     </data-source>
   </component>
 </project>

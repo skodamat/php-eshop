@@ -1,6 +1,10 @@
 <?php
 namespace Eshop\Model;
 
+/**
+ * Class UnregisteredCustomer
+ * @package Eshop\Model
+ */
 class UnregisteredCustomer extends Customer
 {
     /**
