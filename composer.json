@@ -1,0 +1,23 @@
+{
+    "name": "matouss/eshop",
+    "require": {
+        "monolog/monolog": "^1.23",
+        "symfony/validator": "^4.1",
+        "ext-PDO": "^7.2",
+        "ext-sqlite3": "^7.2"
+    },
+    "authors": [
+        {
+            "name": "Matouš Škoda",
+            "email": "skodamat@fit.cvut.cz"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Eshop\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.4"
+    }
+}
