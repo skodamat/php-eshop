@@ -19,8 +19,6 @@ Order::createDbTable();
 
 $c1 = new UnregisteredCustomer('Honza', 2);
 $c1->insert();
-$c1 = $c1->register();
-$c1->insert();
 
 //use Symfony\Component\Validator\Validation;
 
