@@ -17,12 +17,14 @@ class Customer extends ActiveRecord
      */
     public function __construct( $name = null, $id = null )
     {
-        if($id){
-            $this->id = $id;
-        }else{
-            $this->createID();
+        if( $name ) {
+            if ($id) {
+                $this->id = $id;
+            } else {
+                $this->createID();
+            }
+            $this->name = $name;
         }
-        $this->name = $name;
     }
 
     protected static $table = 'customer';

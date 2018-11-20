@@ -7,6 +7,8 @@ namespace Eshop\Model;
  */
 class UnregisteredCustomer extends Customer
 {
+    protected static $table = 'customer';
+
     /**
      * UnregisteredCustomer constructor.
      * @param null $name string
@@ -16,7 +18,6 @@ class UnregisteredCustomer extends Customer
     {
         parent::__construct($name, $id);
     }
-
 
     /**
      * @return RegisteredCustomer

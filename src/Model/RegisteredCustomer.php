@@ -9,6 +9,7 @@ class RegisteredCustomer extends Customer
 {
     const REGISTRATION_LOYALTY_POINTS = 0;
     const LOYALTY_POINTS_COEF = 1;
+    protected static $table = 'customer';
 
     /**
      * RegisteredCustomer constructor.
@@ -23,10 +24,13 @@ class RegisteredCustomer extends Customer
     }
 
 
+    /**
+     * @var double
+     */
     private $loyaltyPoints;
 
     /**
-     * @return int
+     * @return double
      */
     public function getLoyaltyPoints()
     {
@@ -34,7 +38,7 @@ class RegisteredCustomer extends Customer
     }
 
     /**
-     * @param int $loyaltyPoints
+     * @param double $loyaltyPoints
      */
     public function setLoyaltyPoints($loyaltyPoints)
     {
@@ -42,7 +46,7 @@ class RegisteredCustomer extends Customer
     }
 
     /**
-     * @param int $loyaltyPoints
+     * @param double $loyaltyPoints
      */
     public function addLoyaltyPoints($loyaltyPoints)
     {

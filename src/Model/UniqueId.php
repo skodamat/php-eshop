@@ -2,6 +2,7 @@
 namespace Eshop\Model;
 
 trait UniqueId {
+
     protected static $sequence = 0;
     private $id;
 

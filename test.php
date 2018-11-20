@@ -17,6 +17,10 @@ ActiveRecord::setDb(new \PDO('sqlite:eshop.db'));
 Product::createDbTable();
 Order::createDbTable();
 
+$c1 = new UnregisteredCustomer('Honza', 2);
+$c1->insert();
+$c1 = $c1->register();
+$c1->insert();
 
 //use Symfony\Component\Validator\Validation;
 
@@ -25,8 +29,8 @@ Order::createDbTable();
 //    ->addMethodMapping('loadValidatorMetadata')
 //    ->getValidator();
 
-$c1 = new UnregisteredCustomer('Honza');
-$c1->insert();
+//$c1 = new UnregisteredCustomer('Honza');
+//$c1->insert();
 
 //$errors = $validator->validate($product1);
 
