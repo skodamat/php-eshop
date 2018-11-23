@@ -32,20 +32,4 @@ $o1->insert();
 $customers = \Eshop\Model\Customer::All();
 $products = Product::All();
 
-//use Symfony\Component\Validator\Validation;
 
-
-//$validator = Validation::createValidatorBuilder()
-//    ->addMethodMapping('loadValidatorMetadata')
-//    ->getValidator();
-
-//$c1 = new UnregisteredCustomer('Honza');
-//$c1->insert();
-
-//$errors = $validator->validate($product1);
-
-//if( count($errors) > 0 ){
-//    foreach ($errors as $err) {
-//        Logging::error($err);
-//    }
-//}
