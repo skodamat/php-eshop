@@ -32,7 +32,7 @@ class Customer extends ActiveRecord
     /**
      * @var string
      */
-    private $name;
+    protected $name;
 
     /**
      * @return string

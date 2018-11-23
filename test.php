@@ -17,8 +17,20 @@ ActiveRecord::setDb(new \PDO('sqlite:eshop.db'));
 Product::createDbTable();
 Order::createDbTable();
 
-$c1 = new UnregisteredCustomer('Honza', 2);
+$c1 = new UnregisteredCustomer('Honza');
 $c1->insert();
+$c1->register();
+$c1->update();
+
+$p2 = new Product('hruška', 5, 0.1);
+$p2->insert();
+
+$o1 = new Order($c1, [$p2]);
+$o1->doOrder();
+$o1->insert();
+
+$customers = \Eshop\Model\Customer::All();
+$products = Product::All();
 
 //use Symfony\Component\Validator\Validation;
 

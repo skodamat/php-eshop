@@ -12,19 +12,27 @@ class Order extends ActiveRecord
 
     /**
      * Order constructor.
-     * @param null $customer object
-     * @param null $items array
+     * @param null $customer Customer
+     * @param null $items array Product
+     * @param $id int
      */
-    public function __construct($customer = null, $items = null, $id = null)
+    public function __construct($customer = null, $items = [], $id = null)
     {
-        if ($id){
-            $this->id = $id;
-        }else {
-            $this->createID();
+        if($customer)
+        {
+            $this->customer = $customer;
+            $this->items = $items;
+
+            if($id)
+            {
+                $this->setID($id);
+            }
+            else {
+                $this->createID();
+            }
         }
+
         $this->created = date("r");
-        $this->customer = $customer;
-        $this->items = $items;
     }
 
     /**
@@ -48,6 +56,9 @@ class Order extends ActiveRecord
         $this->created = $created;
     }
 
+    /**
+     * @var string
+     */
     private $ordered;
 
     /**
@@ -67,10 +78,13 @@ class Order extends ActiveRecord
         return $this->ordered = $ordered;
     }
 
+    /**
+     * @var Customer
+     */
     private $customer;
 
     /**
-     * @return object
+     * @return Customer
      */
     public function getCustomer()
     {
@@ -78,14 +92,17 @@ class Order extends ActiveRecord
     }
 
     /**
-     * @param $customer object
-     * @return object
+     * @param $customer Customer
+     * @return Customer
      */
     public function setCustomer($customer)
     {
         return $this->customer = $customer;
     }
 
+    /**
+     * @var array Product
+     */
     private $items;
 
     /**
@@ -141,7 +158,8 @@ class Order extends ActiveRecord
     }
 
     protected static $relations = [
-        'items' => [ self::HAS_MANY, Product::class ]
+        'items' => [ self::HAS_MANY, Product::class ],
+        'customer' => [ self::HAS_ONE, Customer::class ]
     ];
 
     public static function createDbTable()

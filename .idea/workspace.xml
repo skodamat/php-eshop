@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8ee65a5-5eec-4406-8bae-3bd5fdda3966" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop.db" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/UnregisteredCustomer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/UnregisteredCustomer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Customer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/UniqueId.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/UniqueId.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/Test/LoggerInterfaceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/Test/LoggerInterfaceTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/log/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/psr/log/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -145,67 +156,80 @@
     <session id="-848609576">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.40" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="log" value="17" />
-          <entry key="php" value="276" />
+          <entry key="log" value="23" />
+          <entry key="php" value="922" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="276" />
-          <entry key="PLAIN_TEXT" value="17" />
+          <entry key="PHP" value="922" />
+          <entry key="PLAIN_TEXT" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="customer" value="8" />
-          <entry key="log" value="1" />
-          <entry key="order" value="3" />
-          <entry key="order_product" value="1" />
-          <entry key="php" value="9" />
-          <entry key="product" value="4" />
-          <entry key="sqlite_master" value="1" />
+          <entry key="customer" value="15" />
+          <entry key="log" value="3" />
+          <entry key="order" value="8" />
+          <entry key="order_product" value="4" />
+          <entry key="php" value="13" />
+          <entry key="product" value="7" />
+          <entry key="sqlite_master" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Database Element" value="17" />
-          <entry key="PHP" value="9" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Database Element" value="36" />
+          <entry key="PHP" value="13" />
+          <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Model/UnregisteredCustomer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+            <state relative-caret-position="300">
+              <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+              <folding>
+                <element signature="e#39#61#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://a1e0f58c-544a-4f8a-8a70-75a04ed41b47/schema/main/table/customer">
+        <entry file="file://$PROJECT_DIR$/src/Model/Order.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logs.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://39da8532-7acb-44f9-b160-56f228285816/schema/main/table/order">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -214,7 +238,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://a1e0f58c-544a-4f8a-8a70-75a04ed41b47/schema/main/table/order">
+        <entry file="das://39da8532-7acb-44f9-b160-56f228285816/schema/main/table/order_product">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -223,19 +247,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/RegisteredCustomer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/ActiveRecord.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="269" column="28" lean-forward="true" selection-start-line="269" selection-start-column="28" selection-end-line="269" selection-end-column="28" />
+        <entry file="das://39da8532-7acb-44f9-b160-56f228285816/schema/main/table/customer">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -243,29 +258,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Model/Product.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+            <state relative-caret-position="-1390">
+              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
               <folding>
                 <element signature="e#30#84#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/Customer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/UniqueId.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -295,16 +292,16 @@
         <option value="$PROJECT_DIR$/src/Logger.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/Model/ActiveRecord.php" />
-        <option value="$PROJECT_DIR$/src/Model/Order.php" />
-        <option value="$PROJECT_DIR$/src/Model/Product.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d87ec630-abb5-4135-8fbf-8ab4436744a9/console.sql" />
         <option value="$PROJECT_DIR$/src/Logging.php" />
+        <option value="$PROJECT_DIR$/src/Model/RegisteredCustomer.php" />
         <option value="$PROJECT_DIR$/src/Model/Customer.php" />
         <option value="$PROJECT_DIR$/src/Model/UniqueId.php" />
-        <option value="$PROJECT_DIR$/src/Model/RegisteredCustomer.php" />
+        <option value="$PROJECT_DIR$/src/Model/UnregisteredCustomer.php" />
+        <option value="$PROJECT_DIR$/src/Model/Product.php" />
+        <option value="$PROJECT_DIR$/src/Model/Order.php" />
         <option value="$PROJECT_DIR$/logs.log" />
         <option value="$PROJECT_DIR$/test.php" />
-        <option value="$PROJECT_DIR$/src/Model/UnregisteredCustomer.php" />
       </list>
     </option>
   </component>
@@ -432,12 +429,13 @@
       <workItem from="1542377602594" duration="2862000" />
       <workItem from="1542383195343" duration="2477000" />
       <workItem from="1542437245363" duration="1384000" />
-      <workItem from="1542718938374" duration="343000" />
+      <workItem from="1542718938374" duration="1426000" />
+      <workItem from="1542953489121" duration="2323000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21169000" />
+    <option name="totallyTimeSpent" value="24575000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -449,11 +447,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1366" height="741" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="-1" width="1366" height="741" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48337027" visible="true" weight="0.19772728" />
-      <window_info id="Structure" order="1" sideWeight="0.5166297" side_tool="true" visible="true" weight="0.19772728" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48115298" visible="true" weight="0.20075758" />
+      <window_info id="Structure" order="1" sideWeight="0.518847" side_tool="true" visible="true" weight="0.20075758" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
@@ -465,13 +462,13 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32792208" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924242" visible="true" weight="0.26785713" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49924242" visible="true" weight="0.26785713" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007576" side_tool="true" weight="0.26904377" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32792208" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.2060606" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.2060606" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,13 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Order.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://d87ec630-abb5-4135-8fbf-8ab4436744a9/schema/main/table/sqlite_master" />
     <entry file="das://d87ec630-abb5-4135-8fbf-8ab4436744a9/schema/main/table/customer" />
     <entry file="file://$PROJECT_DIR$/composer.json">
@@ -535,20 +525,6 @@
     <entry file="das://c1868dc0-e7b1-4fda-adda-802a1c8b9b4d/schema/main/table/order" />
     <entry file="das://c1868dc0-e7b1-4fda-adda-802a1c8b9b4d/schema/main/table/product" />
     <entry file="das://a1e0f58c-544a-4f8a-8a70-75a04ed41b47/schema/main/table/sqlite_master">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://a1e0f58c-544a-4f8a-8a70-75a04ed41b47/schema/main/table/order_product">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://a1e0f58c-544a-4f8a-8a70-75a04ed41b47/schema/main/table/product">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -569,27 +545,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Product.php">
+    <entry file="file://$PROJECT_DIR$/src/Model/ActiveRecord.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
-          <folding>
-            <element signature="e#30#84#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="260">
+          <caret line="269" column="28" selection-start-line="269" selection-start-column="28" selection-end-line="269" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Model/UniqueId.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://a1e0f58c-544a-4f8a-8a70-75a04ed41b47/schema/main/table/customer">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+        <state relative-caret-position="-19">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -600,34 +566,107 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://a1e0f58c-544a-4f8a-8a70-75a04ed41b47/schema/main/table/order_product">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://a1e0f58c-544a-4f8a-8a70-75a04ed41b47/schema/main/table/customer">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Model/Customer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        <state relative-caret-position="705">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logs.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+    <entry file="das://a1e0f58c-544a-4f8a-8a70-75a04ed41b47/schema/main/table/product">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/ActiveRecord.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="269" column="28" lean-forward="true" selection-start-line="269" selection-start-column="28" selection-end-line="269" selection-end-column="28" />
+    <entry file="das://39da8532-7acb-44f9-b160-56f228285816/schema/main/table/sqlite_master">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Model/UnregisteredCustomer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        <state relative-caret-position="90">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://39da8532-7acb-44f9-b160-56f228285816/schema/main/table/product">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1390">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="e#30#84#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://39da8532-7acb-44f9-b160-56f228285816/schema/main/table/order">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://39da8532-7acb-44f9-b160-56f228285816/schema/main/table/order_product">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://39da8532-7acb-44f9-b160-56f228285816/schema/main/table/customer">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+          <folding>
+            <element signature="e#39#61#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

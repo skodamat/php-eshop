@@ -21,14 +21,16 @@ class Product extends ActiveRecord
      */
     public function __construct($name = null, $price = null, $vatRate = 0.0, $id = null)
     {
-        if ( $id ) {
-            $this->id = $id;
-        }else {
-            $this->createID();
+        if ( $name ) {
+            $this->name = $name;
+            $this->price = $price;
+            $this->vatRate = $vatRate;
+            if ($id) {
+                $this->setID($id);
+            } else {
+                $this->createID();
+            }
         }
-        $this->name = $name;
-        $this->price = $price;
-        $this->vatRate = $vatRate;
     }
 
     public static function loadValidatorMetadata(ClassMetadata $metadata)
