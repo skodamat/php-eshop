@@ -13,7 +13,7 @@ class Order extends ActiveRecord
     /**
      * Order constructor.
      * @param null $customer Customer
-     * @param null $items array Product
+     * @param array $items Product
      * @param $id int
      */
     public function __construct($customer = null, $items = [], $id = null)
@@ -126,15 +126,15 @@ class Order extends ActiveRecord
      */
     public function addItem($item)
     {
-        $this->items[] = $item;
+        array_push($this->items, $item);
     }
 
     /**
-     * @param $id Product
+     * @param $product Product
      */
-    public function removeItem($id){
+    public function removeItem($product){
         foreach ($this->items as $key => $i) {
-            if ($i->getID() == $id) {
+            if ($i->getID() == $product->getID()) {
                 unset($this->items[$key]);
             }
         }
