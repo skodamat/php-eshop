@@ -5,7 +5,9 @@
         "symfony/validator": "^4.1",
         "ext-PDO": "^7.2",
         "ext-sqlite3": "^7.2",
-        "fabpot/goutte": "^3.2"
+        "fabpot/goutte": "^3.2",
+        "symfony/console": "^4.2",
+        "ext-gd": "^7.2"
     },
     "authors": [
         {

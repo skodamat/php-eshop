@@ -1,0 +1,36 @@
+version: 1
+creator: xdebug 2.6.0 (PHP 7.2.1-1ubuntu2)
+cmd: /home/matouss/Documents/Skola/PHP/semestralka/eshop/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php
+part: 1
+positions: line
+
+events: Time Memory
+
+fl=(2)
+fn=(50)
+62 0 0
+
+fl=(2)
+fn=(117) php::fclose
+63 10 -496
+
+fl=(23)
+fn=(118) Monolog\Handler\StreamHandler->close
+60 49 -24
+cfl=(2)
+cfn=(50)
+calls=1 0 0
+62 0 0
+cfl=(2)
+cfn=(117)
+calls=1 0 0
+63 10 -496
+
+fl=(21)
+fn=(119) Monolog\Handler\StreamHandler->__destruct
+167 27 0
+cfl=(23)
+cfn=(118)
+calls=1 0 0
+170 60 -520
+

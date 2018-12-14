@@ -1,0 +1,56 @@
+version: 1
+creator: xdebug 2.6.0 (PHP 7.2.1-1ubuntu2)
+cmd: /home/matouss/Documents/Skola/PHP/semestralka/eshop/vendor/guzzlehttp/promises/src/TaskQueue.php
+part: 1
+positions: line
+
+events: Time Memory
+
+fl=(2)
+fn=(445) php::error_get_last
+24 1 0
+
+fl=(2)
+fn=(188)
+46 1 0
+
+fl=(53)
+fn=(265)
+43 20 0
+cfl=(2)
+cfn=(188)
+calls=1 0 0
+46 1 0
+
+fl=(53)
+fn=(446) GuzzleHttp\Promise\TaskQueue->GuzzleHttp\Promise\{closure}
+21 74 0
+cfl=(2)
+cfn=(445)
+calls=1 0 0
+24 1 0
+cfl=(53)
+cfn=(265)
+calls=1 0 0
+26 22 0
+
+fl=(2)
+fn=(50)
+62 0 0
+
+fl=(23)
+fn=(447) Monolog\Handler\StreamHandler->close
+60 20 0
+cfl=(2)
+cfn=(50)
+calls=1 0 0
+62 0 0
+
+fl=(21)
+fn=(448) Monolog\Handler\StreamHandler->__destruct
+167 23 0
+cfl=(23)
+cfn=(447)
+calls=1 0 0
+170 21 0
+
